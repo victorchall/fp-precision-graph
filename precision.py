@@ -154,7 +154,7 @@ def update_graph(toggle_fp32:bool=False, toggle_fp16:bool=False, toggle_bf16:boo
         mlines.Line2D([], [], color='blue', marker='^', linestyle='None', markersize=legend_size, label='fp32'),
         mlines.Line2D([], [], color='red', marker='*', linestyle='None', markersize=legend_size, label='fp16'),
         mlines.Line2D([], [], color='green', marker='d', linestyle='None', markersize=legend_size, label='bf16'),
-        mlines.Line2D([], [], color='purple', marker='>', linestyle='None', markersize=legend_size, label='fp8 e4m2'),
+        mlines.Line2D([], [], color='purple', marker='>', linestyle='None', markersize=legend_size, label='fp8 e4m3'),
         mlines.Line2D([], [], color='orange', marker='<', linestyle='None', markersize=legend_size, label='fp8 e5m2'),
         mlines.Line2D([], [], color='black', marker='o', linestyle='None', markersize=legend_size, label='int8')
     ]
